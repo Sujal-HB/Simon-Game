@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  background-color: rgb(13, 17, 23);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.tex1 {
+  grid-column: 2;
+  color: #ede6da;
+  margin: 0;
+}
+
+.highestScore {
+  grid-column: 3;
+  justify-self: end;
+  color: #a69c8d;
+  margin: 0;
+}
+
+.tex2 {
+  color: #a69c8d;
+}
+
+.btn {
+  height: 270px;
+  width: 270px;
+  border-radius: 30%;
+  border: 2px solid black;
+  margin: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.one {
+  background-color: #8a6d4e;
+}
+.two {
+  background-color: #4c5a3f;
+}
+.three {
+  background-color: #3e4a55;
+}
+.four {
+  background-color: #b5563c;
+}
+
+.flash {
+  background-color: white;
+}
+
+.userFlash {
+  background-color: green;
+}
